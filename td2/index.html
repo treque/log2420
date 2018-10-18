@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-    // WebSocket WebSocket(http://log2420-nginx.info.polymtl.ca);
     <head>
         <meta charset="UTF-8">
         <title>Équipe 9 --- TD2</title>
@@ -8,16 +7,31 @@
         <!--Icons-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         <!--Scripts (Tout nevcessaires????)-->
-        <script src="main.js"></script>
+
         <script src="message.js"></script>
         <script src="channel.js"></script>
         <script src="messagesObserver.js"></script>
         <script src="channelsObserver.js"></script>
         <script src="connectionHandler.js"></script>
+        <script src="main.js"></script>
     </head>
 
     <body>
+        <div class="logo"><span>Poly</span><i class="fas fa-cat" style = "color : white"></i><span style = "color : rgb(255, 149, 77)">Chat</span></div>
+
+        <div style = "height : 100px;" id="chatBox">
+        
+        
+        </div>
+
+            <form id="form" onsubmit="return false;">
+                <input type="text" placeholder="Aa" id="userInput">
+                <input type="submit" onclick="sendMessage()">
+            </form>
+
+                
     </body>
     
 </html>

@@ -1,0 +1,40 @@
+.logo{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size:  30px;
+    color : rgb(96, 195, 199);
+    background-color: rgb(220, 220, 220);
+}
+
+.groupHeader{
+    background-color: rgb(149, 176, 124);
+    color : white;
+    font-size : 10px;
+}
+
+.myMessage{
+    background-color: rgb(134, 144, 206);
+}
+
+.otherMessage{
+    background-color: rgb(220, 220, 220);
+}
+
+.myMessage, .otherMessage {
+    font-family:  "Comic Sans MS", "Comic Sans", cursive;
+    padding : 10px;
+    margin : 10px;
+    width: 200px;
+    border-radius : 20px;
+    color : white;
+}
+
+#userInput{
+    border-radius : 5px;
+    border : 1px solid rgb(134, 144, 206);; 
+}
+
+.messageButton{
+    background-color: rgb(149, 176, 124);
+    color : white;
+    font-size : 10px;
+}
