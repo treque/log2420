@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Équipe 9 --- TD1</title>
+        <link rel="stylesheet" href="calendrier.css">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+        <script src="calendrier.js"></script>
+
+    </head>
+
+
+    <body>
+
+        <h1>Équipe 9 --- TD1</h1>
+
+        <div id = "grid-container">
+
+            <div class = "empty"></div>
+            <div id = "dates-container"></div>
+            <div id = "number-participants"></div>
+            <div id = "number-participants-container"></div>
+
+            <div class="new-participant">
+                <img src="particip1.png">
+                <input type="text">
+            </div>
+
+            <div id = "new-availability-container">
+                <div class="new-availability" onclick="check(this, 0)"></div>
+                <div class="new-availability" onclick="check(this, 1)"></div>
+                <div class="new-availability" onclick="check(this, 2)"></div>
+                <div class="new-availability" onclick="check(this, 3)"></div>
+                <div class="new-availability" onclick="check(this, 4)"></div>
+                <div class="new-availability" onclick="check(this, 5)"></div>
+                <div class="new-availability" onclick="check(this, 6)"></div>
+                <div class="new-availability" onclick="check(this, 7)"></div>
+                <div class="new-availability" onclick="check(this, 8)">
+                        <label class="container">
+                                <input type="checkbox" checked="checked">
+                                <span class="checkmark"></span>
+                        </label>
+                </div>
+
+            </div>
+            
+            
+
+            <div id = "participants-container"></div>
+            <div id = "availability-container-table"></div>
+
+        </div>
+
+    </body>
+
+
+
+</html>
