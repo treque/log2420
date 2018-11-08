@@ -19,17 +19,51 @@
     </head>
 
     <body>
-        <div class="logo"><span>Poly</span><i class="fas fa-cat" style = "color : white"></i><span style = "color : rgb(255, 149, 77)">Chat</span></div>
 
-        <div style = "height : 100px;" id="chatBox">
-        
-        
+        <div class="wrapper">
+
+            <div class="headerWrapper">
+                <div class="headerLogo"><span>Poly</span><i class="fas fa-cat" style = "color : white"></i><span style = "color : rgb(255, 149, 77)">Chat</span></div>
+                <div class="headerIcons"><span>allo</span></div>
+            </div>
+
+            <div class="groupHeaderWrapper">
+                <div class="groupHeaderCurrent"><span>Groupe actif</span>"></div>
+                <div class="groupHeaderList"><span>Groupes disponibles</span></div>
+            </div>
+
+
+            
+            
+            
+
+            <div class = "chatWrapper">
+                <div class ="chatBox" id="chatBox">
+
+                </div>
+                <div class ="channelsList"></div>
+                
+                <div class="messageBox">
+                        <form id="form" onsubmit="return false;">
+                                <input type="text" placeholder="Aa" id="userInput">
+                                <input type="submit" onclick="createMessage()">
+                            </form>
+                    </div>
+    
+            </div>
+            <!--MESSAGE INPUT-->
+
+
+
+
+
+
+
+
         </div>
 
-            <form id="form" onsubmit="return false;">
-                <input type="text" placeholder="Aa" id="userInput">
-                <input type="submit" onclick="sendMessage()">
-            </form>
+
+        
 
                 
     </body>
